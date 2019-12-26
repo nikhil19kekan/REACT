@@ -1,6 +1,10 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import { decrementAction, resetAction, incrementAction } from "./actions";
+import {
+  decrementAction,
+  resetAction,
+  incrementAction
+} from "../actions/actions";
 
 function mapStoreToProps(state: any) {
   return {
